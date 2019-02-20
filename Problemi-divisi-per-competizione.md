@@ -6,3 +6,22 @@ Oltre alla gara scolastica (i cui dettagli sono descritti sul [sito ufficiale](h
 - *Selezione territoriale non ancora svolta (aprile 2019) :-)*
 
 - *Finale nazionale non ancora svolta (settembre 2019) :-)*
+
+#### Edizione 2017-2018 (selezione per IOI 2019)
+
+- Selezione territoriale: [PDF testi](/resources/2018_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi](/resources/2018_Nazionali_testi.pdf) e [slide con spiegazione delle soluzioni](/resources/2018_Nazionali_soluzioni_slide.pdf)
+
+#### Edizione 2016-2017 (selezione per IOI 2018)
+
+- Selezione territoriale: [PDF testi con soluzioni C++](/resources/2017_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi](/resources/2017_Nazionali.pdf)
+
+#### Edizione 2015-2016 (selezione per IOI 2017)
+
+- Selezione territoriale: [PDF testi con soluzioni commentate](/resources/2016_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi con soluzioni commentate](/resources/2016_Nazionali.pdf)
+
