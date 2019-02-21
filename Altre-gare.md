@@ -8,6 +8,9 @@ Questa pagina raccoglie testi e soluzioni, qualora disponibili, di diverse gare 
 
 ### Pre-OII
 
+- Edizione 2018: (missing)
+- Edizione 2017: (missing)
+- Edizione 2016: (missing)
 - Edizione 2015: [PDF testi con soluzioni commentate](/resources/2015_PreOII.pdf)
 - Edizione 2014: [PDF testi con soluzioni commentate](/resources/2014_PreOII.pdf)
 
