@@ -25,3 +25,22 @@ Oltre alla gara scolastica (i cui dettagli sono descritti sul [sito ufficiale](h
 
 - Finale nazionale: [PDF testi con soluzioni commentate](/resources/2016_Nazionali.pdf)
 
+#### Edizione 2014-2015 (selezione per IOI 2016)
+
+- Selezione territoriale: [PDF testi con soluzioni commentate](/resources/2015_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi con soluzioni commentate](/resources/2015_Nazionali.pdf)
+
+#### Edizione 2013-2014 (selezione per IOI 2015)
+
+- Selezione territoriale: [PDF testi con soluzioni commentate](/resources/2014_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi con soluzioni commentate](/resources/2014_Nazionali.pdf)
+
+#### Edizione 2012-2013 (selezione per IOI 2014)
+
+- Selezione territoriale: [PDF testi con soluzioni commentate](/resources/2013_Territoriali.pdf)
+
+- Finale nazionale: [PDF testi con soluzioni commentate](/resources/2013_Nazionali.pdf)
+
+
