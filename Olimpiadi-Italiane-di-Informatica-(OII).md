@@ -1,5 +1,16 @@
-## Olimpiadi Italiane di Informatica (OII)
-Oltre alla gara scolastica (i cui dettagli sono descritti sul [sito ufficiale](https://www.olimpiadi-informatica.it/)), ogni anno viene svolta in aprile una selezione territoriale e in settembre la finale nazionale.
+### Descrizione
+
+Per selezionare la squadra italiana per le Olimpiadi Internazionali di Informatica (IOI) dell'anno _X_ si tengono:
+
+- una selezione scolastica a novembre dell'anno _X-2_ (i cui dettagli sono descritti sul [sito ufficiale](https://www.olimpiadi-informatica.it/));
+
+- una selezione territoriale ad aprile dell'anno _X-1_;
+
+- una finale nazionale a settembre dell'anno _X-1_.
+
+Questa pagina raccoglie testi e soluzioni dei problemi delle precedenti edizioni.
+
+### Edizioni
 
 #### Edizione 2018-2019 (selezione per IOI 2020)
 
