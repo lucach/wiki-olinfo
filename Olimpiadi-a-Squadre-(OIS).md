@@ -46,6 +46,8 @@ Maggiori dettagli sulle Olimpiadi di Informatica a squadre si trovano sul [sito 
 - Round 4: [PDF testi](/resources/ois/ois6_round4.pdf)
 - Finale nazionale: [PDF testi](/resources/ois/ois6_finale.pdf)
 
+Per questa edizione sono disponibili alcune [bozze di soluzioni commentate](https://github.com/olimpiadi-informatica/ois/tree/master/soluzioni) scritte dai partecipanti stessi alle gare.
+
 #### Edizioni precedenti
 
 Le prime edizioni delle OIS erano basate sui problemi delle gare [COCI](http://www.hsin.hr/coci/).
