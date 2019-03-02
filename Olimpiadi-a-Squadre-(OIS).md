@@ -12,7 +12,7 @@ Maggiori dettagli sulle Olimpiadi di Informatica a squadre si trovano sul [sito 
 - Round 2: [PDF testi](/resources/ois/ois10_round2_statements.pdf) e [soluzioni C++](/resources/ois/ois10_round2_solutions.tar.xz)
 - Round 3: [PDF testi](/resources/ois/ois10_round3_statements.pdf) e [soluzioni C++](/resources/ois/ois10_round3_solutions.tar.xz)
 - Round 4: [PDF testi](/resources/ois/ois10_round4_statements.pdf) e [soluzioni C++](/resources/ois/ois10_round4_solutions.tar.xz)
-- Finale nazionale: [PDF testi](/resources/ois/ois10_final_statements.pdf) e [soluzioni C++](/resources/ois/ois10_final_solutions.tar.xz)
+- Finale nazionale: [PDF testi](/resources/ois/ois10_final_statements.pdf), [soluzioni C++](/resources/ois/ois10_final_solutions.tar.xz) e [slide di commento alle soluzioni](/resources/ois/ois10_final_slides.pdf)
 
 #### Nona edizione: 2017-2018
 
