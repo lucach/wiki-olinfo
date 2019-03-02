@@ -48,4 +48,4 @@ Maggiori dettagli sulle Olimpiadi di Informatica a squadre si trovano sul [sito 
 
 #### Edizioni precedenti
 
-Le prime edizioni delle OIS erano basata sui problemi delle gare [COCI](http://www.hsin.hr/coci/).
+Le prime edizioni delle OIS erano basate sui problemi delle gare [COCI](http://www.hsin.hr/coci/).
