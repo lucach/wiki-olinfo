@@ -13,7 +13,7 @@ La piattaforma di riferimento per gli allenamenti è [training.olinfo.it](https:
     - [Olimpiadi a Squadre (OIS)](Olimpiadi-a-Squadre-(OIS))
 
 - alcuni consigli su come muovere i [primi passi](Primi-passi) nel mondo della programmazione competitiva;
-- alcuni consigli su [problemi](Problemi) interessanti per categoria / strategia risolutiva (ad esempio: "Voglio allenarmi sui problemi risolubili tramite programmazione dinamica. Quali dovrei scegliere tra i tanti?").
+- alcuni consigli su [problemi](Problemi-interessanti) interessanti per categoria / strategia risolutiva (ad esempio: "Voglio allenarmi sui problemi risolubili tramite programmazione dinamica. Quali dovrei scegliere tra i tanti?").
 
 Buon divertimento!
 
