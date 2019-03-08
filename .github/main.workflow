@@ -4,7 +4,7 @@ workflow "Deploy" {
 }
 
 action "ssh" {
-  uses = "ssh"
+  uses = "maddox/actions/ssh@master"
   args = "cd /root/wiki-olinfo && git pull"
   secrets = ["PUBLIC_KEY", "HOST", "USER", "PRIVATE_KEY"]
 }
