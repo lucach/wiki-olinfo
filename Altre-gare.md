@@ -2,9 +2,9 @@
 
 Questa pagina raccoglie testi e soluzioni, qualora disponibili, di diverse gare legate al mondo delle Olimpiadi di Informatica tra cui:
 
-- Pre-OII: problemi di allenamento in vista della finale nazionale delle OII
-- [ABC](https://abc.chiodini.org/): gara di allenamento organizzata a maggio dall'ITIS Paleocapa di Bergamo
-- GATOR / [LUISSMatics](https://programs.luiss.it/luissmatics/): gara in preparazione della selezione territoriale, organizzata dal Prof. Luigi Laura
+- Pre-OII: problemi di allenamento in vista della finale nazionale delle OII;
+- [ABC](https://abc.chiodini.org/): gara di allenamento organizzata a maggio dall'ITIS Paleocapa di Bergamo;
+- GATOR / [LUISSMatics](https://programs.luiss.it/luissmatics/): gara in preparazione della selezione territoriale, organizzata dal Prof. Luigi Laura.
 
 ### Pre-OII
 
