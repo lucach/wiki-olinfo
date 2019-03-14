@@ -1,4 +1,4 @@
-## Soluzioni — Selezione Territoriali 2018
+# Soluzioni — Selezione Territoriali 2018
 Di seguito spiegheremo brevemente come risolvere i quattro task delle selezioni territoriali 2018.
 
 ### Festa canina (`party`) - molto facile
