@@ -136,7 +136,7 @@ Per risolvere questo problema è necessario avere dimestichezza con la ricorsion
 
 Una possibile soluzione subottimale è utilizzare una funzione ricorsiva che "esplora" la matrice. La funzione, dato un punto di partenza, visita ricorsivamente tutte le direzioni possibili (sinistra, sopra, destra, sotto) a patto che non si esca oltre i bordi. La funzione dovrà quindi avere tra i suoi parametri: la posizione (data da `i` e `j`) e la differenza di altitudine più alta trovata finora.
 
-Affinché la funzione non vada in ciclo infinito, è necessario mantenere globalmente una matrice booleana che indica se abbiamo visitato oppure no ciascuna cella. Dovremo quindi fare attenzione a impostare a `true` la posizione in cui stiamo entrando ricorsivamente, e soprattutto di reimpostare a `false` la posizione dalla quale stiamo uscendo ricorsivamente. Questa tecnica prende il nome di (backtracking)[https://en.wikipedia.org/wiki/Backtracking].
+Affinché la funzione non vada in ciclo infinito, è necessario mantenere globalmente una matrice booleana che indica se abbiamo visitato oppure no ciascuna cella. Dovremo quindi fare attenzione a impostare a `true` la posizione in cui stiamo entrando ricorsivamente, e soprattutto di reimpostare a `false` la posizione dalla quale stiamo uscendo ricorsivamente. Questa tecnica prende il nome di [backtracking](https://en.wikipedia.org/wiki/Backtracking).
 
 Nel corpo della funzione dobbiamo controllare se la posizione attuale corrisponde con quella di arrivo e, se è così, dobbiamo memorizzare in una variabile globale il risultato migliore trovato finora (utilizzando il parametro della funzione che indica la differenza di altitudine più alta del percorso).
       
