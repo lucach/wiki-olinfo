@@ -29,7 +29,7 @@ int main() {
 
 Anche qui, una volta estratto il problema dalla "storiella", ciò che ci viene richiesto è esprimibile in termini primitivi (variabili e array). In particolare, ci vengono fornite delle variabili (numeri interi) e 4 stringhe (array di caratteri). Vogliamo calcolare 4 indici (numeri interi) che rappresentano il "punto di partenza" del virus in ciascuna stringa.
 
-Una possibile soluzione è scrivere 5 cicli for nidificati (ovvero: uno dentro l'altro, come una [matrioska](https://it.wikipedia.org/wiki/Matrioska). I 4 cicli più esterni faranno riferimento all'indice delle 4 stringhe (non è importante l'ordine). Per esempio, possiamo chiamare gli indici `i`, `j`, `k`, `l`. Il quinto ciclo, quello più interno, servirà invece a verificare che il virus sia effettivamente presente nelle posizioni indicate dai quattro indici. Per esempio, potremmo chiamare `m` l'indice di questo ciclo.
+Una possibile soluzione è scrivere 5 cicli for nidificati (ovvero: uno dentro l'altro, come una [matrioska](https://it.wikipedia.org/wiki/Matrioska). I 4 cicli più esterni faranno riferimento all'indice delle 4 stringhe (non è importante l'ordine). Per esempio, possiamo chiamare gli indici $i$, $j$, $k$, $l$. Il quinto ciclo, quello più interno, servirà invece a verificare che il virus sia effettivamente presente nelle posizioni indicate dai quattro indici. Per esempio, potremmo chiamare $m$ l'indice di questo ciclo.
 
 Il codice che segue implementa la soluzione appena descritta (con un `+ M` nella condizione dei cicli for, per evitare che i vari indici "fuoriescano" dalle stringhe).
 
@@ -45,20 +45,20 @@ void solve(int t) {
     cin >> F1 >> F2 >> F3 >> F4;
 
     for (int i = 0; i + M <= N1; i++)
-    for (int j = 0; j + M <= N2; j++)
-    for (int k = 0; k + M <= N3; k++)
-    for (int l = 0; l + M <= N4; l++) {
-        bool match = true;
+        for (int j = 0; j + M <= N2; j++)
+            for (int k = 0; k + M <= N3; k++)
+                for (int l = 0; l + M <= N4; l++) {
+                    bool match = true;
 
-        for (int m = 0; m < M; m++)
-            if (F1[i + m] != F2[j + m] || F2[j + m] != F3[k + m] || F3[k + m] != F4[l + m])
-                match = false;
+                    for (int m = 0; m < M; m++)
+                        if (F1[i + m] != F2[j + m] || F2[j + m] != F3[k + m] || F3[k + m] != F4[l + m])
+                            match = false;
 
-        if (match) {
-            cout << "Case #" << t << ": " << i << " " << j << " " << k << " " << l << endl;
-            return;
-        }
-    }
+                    if (match) {
+                        cout << "Case #" << t << ": " << i << " " << j << " " << k << " " << l << endl;
+                        return;
+                    }
+                }
 }
 
 int main() {
@@ -71,9 +71,9 @@ int main() {
 }
 ```
 
-**ATTENZIONE!** Questa soluzione, sebbene sia sufficiente a prendere tutti i punti, non è quella asintoticamente ottimale. Infatti, la [complessità computazionale](https://it.wikipedia.org/wiki/Teoria_della_complessit%C3%A0_computazionale) di questa soluzione, quando la esprimiamo come funzione della lunghezza massima `N` delle quattro stringhe e della lunghezza massima `M` del virus, diventa pari a: $O(N^4M)$.
+**ATTENZIONE!** Questa soluzione, sebbene sia sufficiente a prendere tutti i punti, non è quella asintoticamente ottimale. Infatti, la [complessità computazionale](https://it.wikipedia.org/wiki/Teoria_della_complessit%C3%A0_computazionale) di questa soluzione, quando la esprimiamo come funzione della lunghezza massima $N$ delle quattro stringhe e della lunghezza massima $M$ del virus, diventa pari a: $O(N^4M)$.
 
-Dato che i valori massimi di `N` e `M` sono piuttosto bassi, il nostro programma terminerà la sua esecuzione in un tempo ragionevole. Tuttavia, se questo stesso problema fosse stato proposto alla *finale nazionale*, i valori sarebbero sicuramente stati molto più elevati. Esistono infatti soluzioni asintoticamente molto più efficienti di quella appena descritta!
+Dato che i valori massimi di $N$ e $M$ sono piuttosto bassi, il nostro programma terminerà la sua esecuzione in un tempo ragionevole. Tuttavia, se questo stesso problema fosse stato proposto alla *finale nazionale*, i valori sarebbero sicuramente stati molto più elevati. Esistono infatti soluzioni asintoticamente molto più efficienti di quella appena descritta!
 
 ### Radioanalisi fossile (`xray`) - medio
 
