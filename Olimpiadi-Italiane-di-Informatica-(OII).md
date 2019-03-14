@@ -17,7 +17,7 @@ Questa pagina raccoglie testi e soluzioni dei problemi delle precedenti edizioni
 
 #### Edizione 2017-2018 (selezione per IOI 2019)
 
-- Selezione territoriale: [PDF testi](/resources/2018_Territoriali.pdf)
+- Selezione territoriale: [PDF testi](/resources/2018_Territoriali.pdf) e [soluzioni brevemente commentate](/resources/2018_Territoriali_soluzioni)
 - Finale nazionale: [PDF testi](/resources/2018_Nazionali_testi.pdf) e [slide con spiegazione delle soluzioni](/resources/2018_Nazionali_soluzioni_slide.pdf)
 
 #### Edizione 2016-2017 (selezione per IOI 2018)
