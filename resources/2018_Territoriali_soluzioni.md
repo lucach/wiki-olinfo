@@ -150,19 +150,36 @@ Questa soluzione dovrebbe essere molto più veloce ed è probabilmente sufficien
 
 #### Soluzione ottima
 
-La soluzione ottimale a questo problema consiste nell'usare una variazione dell'[Algoritmo di Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+La soluzione ottimale a questo problema consiste nell'usare una variante del noto [Algoritmo di Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm). Anziché sommare il peso degli archi che si attraversano, per questo problema si può considerare il massimo tra il peso del nuovo arco e il massimo peso degli archi percorsi fino a quel momento. Il concetto di "distanza" diventa quindi il peso massimo tra quelli degli archi attraversati per arrivare fino lì, nel cammino migliore (ovvero quello a "distanza" minore, che equivale al peso massimo minore).
+
+Nell'implementazione che segue il grafo viene memorizzato ed esplorato in forma implicita (senza la costruzione di liste o matrici di adiacenza), sfruttando il fatto che - a meno dei bordi - ogni punto $(x,y)$ della mappa ha come nodi vicini i punti $(x-1,y)$, $(x+1,y)$, $(x,y-1)$ e $(x,y+1)$. Il peso degli archi può essere calcolato all'occorrenza come valore assoluto della differenza delle altezze tra i due punti.
+
 
 ```c++
+#include <cstring>
+#include <iostream>
+#include <queue>
 #define INFTY 1000000000
+
+using namespace std;
 
 const int MAXH = 100;
 const int MAXW = 100;
 
-int A[MAXH + 2][MAXW + 2];
-int D[MAXH + 2][MAXW + 2];
+int A[MAXH + 2][MAXW + 2]; // Matrice delle altezze
+int D[MAXH + 2][MAXW + 2]; // Matrice della "distanza" dal nodo di partenza
 int H, W;
 
 int compute() {
+  // Algoritmo di Dijkstra.
+
+  // Gli elementi nella coda di priorità sono della forma (d, (x, y))
+  // dove d indica la distanza per raggiungere il nodo (x,y).
+  // priority_queue mette per primi i nodi con d maggiore. Poiché invece
+  // vogliamo estrarre per primi i nodi a distanza d minore, inseriremo
+  // le distanze con segno negato, per "ribaltare" l'ordinamento.
+  // Dopo l'estrazione, è sufficiente negare di nuovo il valore per riottenere
+  // la distanza positiva originale.
   priority_queue<pair<int, pair<int, int>>> q;
 
   q.push(make_pair(0, make_pair(1, 1)));
@@ -171,14 +188,21 @@ int compute() {
     auto top = q.top();
     q.pop();
 
+    // Se il nodo è già stato esplorato e la sua miglior distanza è stata calcolata,
+    // non proseguo.
     if (D[top.second.first][top.second.second] != INFTY)
       continue;
 
+    // Memorizziamo la miglior "distanza" con cui è possibile raggiungere questo nodo.
     D[top.second.first][top.second.second] = -top.first;
 
+    // Esploriamo i quattro vicini.
     for (int i = -1; i <= 1; i++) {
       for (int j = -1; j <= 1; j++) {
         if (i * j == 0) {
+          // La miglior distanza con cui si può raggiungere il nuovo nodo è il massimo tra:
+          // - la distanza con cui si può raggiungere il nodo attuale
+          // - il peso del nuovo arco
           q.push(make_pair(
               -max(-top.first,
                    abs(A[top.second.first][top.second.second] -
