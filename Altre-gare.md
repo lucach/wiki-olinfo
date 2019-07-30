@@ -25,6 +25,7 @@ Questa pagina raccoglie testi e soluzioni, qualora disponibili, di diverse gare 
 
 ### GATOR / LUISSMatics
  
+- Edizione 2019 LUISSMatics: [PDF testi con codice C++ soluzioni](/resources/2019_LUISSMatics.pdf)
 - Edizione 2018 LUISSMatics: (missing)
 - Edizione 2017 GATOR: (missing)
 - Edizione 2016 GATOR: [PDF testi con soluzioni commentate](/resources/2016_Gator.pdf)
