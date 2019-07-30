@@ -12,7 +12,7 @@ Questa pagina raccoglie testi e soluzioni dei problemi delle precedenti edizioni
 
 #### Edizione 2018-2019 (selezione per IOI 2020)
 
-- *Selezione territoriale non ancora svolta (aprile 2019) :-)*
+- Selezione territoriale: [PDF testi](/resources/2019_Territoriali.pdf) e [soluzioni brevemente commentate](/resources/2019_Territoriali_soluzioni.pdf)
 - *Finale nazionale non ancora svolta (settembre 2019) :-)*
 
 #### Edizione 2017-2018 (selezione per IOI 2019)
