@@ -16,7 +16,7 @@ Questa pagina raccoglie testi e soluzioni, qualora disponibili, di diverse gare 
 
 ### ABC
 
-- Edizione 2019: [PDF testi](/resources/2019_ABC.pdf)
+- Edizione 2019: [PDF testi con soluzioni commentate](/resources/2019_ABC.pdf)
 - Edizione 2018: [PDF testi](/resources/2018_ABC.pdf)
 - Edizione 2017: [PDF testi con soluzioni commentate](/resources/2017_ABC.pdf)
 - Edizione 2016: [PDF testi](/resources/2016_ABC.pdf)
