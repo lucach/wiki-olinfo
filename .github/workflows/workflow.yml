@@ -1,0 +1,16 @@
+on: push
+name: Deploy
+jobs:
+  ssh:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: ssh
+      uses: maddox/actions/ssh@master
+      env:
+        HOST: ${{ secrets.HOST }}
+        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
+        USER: ${{ secrets.USER }}
+      with:
+        args: cd /root/wiki-olinfo && git pull
