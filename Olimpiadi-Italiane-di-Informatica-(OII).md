@@ -10,10 +10,15 @@ Questa pagina raccoglie testi e soluzioni dei problemi delle precedenti edizioni
 
 ### Edizioni
 
+#### Edizione 2019-2020 (selezione per IOI 2021)
+
+- *Selezione territoriale non ancora svolta (aprile 2020) :-)*
+- *Finale nazionale non ancora svolta (settembre 2020) :-)*
+
 #### Edizione 2018-2019 (selezione per IOI 2020)
 
 - Selezione territoriale: [PDF testi](/resources/2019_Territoriali.pdf) e [soluzioni brevemente commentate](/resources/2019_Territoriali_soluzioni.pdf)
-- *Finale nazionale non ancora svolta (settembre 2019) :-)*
+- Finale nazionale: testo di [grattacieli](https://training.olinfo.it/#/task/oii_grattacieli/statement), [orticultura](https://training.olinfo.it/#/task/oii_orticoltura/statement) e [pangramma](https://training.olinfo.it/#/task/oii_pangramma/statement)
 
 #### Edizione 2017-2018 (selezione per IOI 2019)
 
