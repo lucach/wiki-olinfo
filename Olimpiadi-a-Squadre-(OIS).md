@@ -6,6 +6,10 @@ Maggiori dettagli sulle Olimpiadi di Informatica a squadre si trovano sul [sito 
 
 ### Edizioni
 
+#### Undicesima edizione: 2019-2020
+
+- Round 1: [PDF testi](/resources/ois/ois11_round1_statements.pdf) e [soluzioni C++](/resources/ois/ois11_round1_solutions.tar.xz)
+
 #### Decima edizione: 2018-2019
 
 - Round 1: [PDF testi](/resources/ois/ois10_round1_statements.pdf) e [soluzioni C++](/resources/ois/ois10_round1_solutions.tar.xz)
