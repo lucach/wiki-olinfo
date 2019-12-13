@@ -1,6 +1,6 @@
 ### Descrizione
 
-Questa pagina raccoglie testi e soluzioni in C++ dei problemi delle precedenti edizioni OIS.
+Questa pagina raccoglie testi e soluzioni dei problemi delle precedenti edizioni OIS.
 
 Maggiori dettagli sulle Olimpiadi di Informatica a squadre si trovano sul [sito istituzionale](https://sites.google.com/aldini.istruzioneer.it/olimpiadi-informatica-squadre/homepage) e su [squadre.olinfo.it](https://squadre.olinfo.it).
 
