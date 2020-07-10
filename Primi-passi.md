@@ -10,7 +10,7 @@ Se non hai mai risolto un problema sulla piattaforma [training.olinfo.it](https:
 Risolverli ti aiuterà a prendere familiarità con la piattaforma di allenamento (per capire, ad esempio, come si sottopone un programma e come deve essere fatto). Se hai difficoltà, ricorda che esiste il forum: puoi cercare se qualcuno ha già avuto il tuo stesso problema oppure chiedere aiuto. Qualcuno ti aiuterà sicuramente!
 
 ### Introduzione alla risoluzione dei problemi
-Una volta risolti i tre problemi indicati sopra, un buon punto di partenza per sviluppare competenze legate agli algoritmi e alle strutture dati (che ti consentiranno di risolvere problemi man mano più difficili) è la guida alle selezioni territoriali, scritta dal prof. Alessandro Bugatti. Tale guida è gratuitamente scaricabile dal (sito dell'autore)[https://www.imparando.net]: il PDF della quinta edizione, la più recente, è accessibile da [qui](https://www.imparando.net/sito/olimpiadi_di_informatica/guida_quinta_edizione.pdf).
+Una volta risolti i tre problemi indicati sopra, un buon punto di partenza per sviluppare competenze legate agli algoritmi e alle strutture dati (che ti consentiranno di risolvere problemi man mano più difficili) è la guida alle selezioni territoriali, scritta dal prof. Alessandro Bugatti. Tale guida è gratuitamente scaricabile dal [sito dell'autore](https://www.imparando.net): il PDF della quinta edizione, la più recente, è accessibile da [qui](https://www.imparando.net/sito/olimpiadi_di_informatica/guida_quinta_edizione.pdf).
 
 Tale guida è pensata proprio per chi si affaccia al mondo della programmazione competitiva e dovresti quindi trovare degli spunti utili.
 
